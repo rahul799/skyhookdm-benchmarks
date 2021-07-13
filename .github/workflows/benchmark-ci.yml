@@ -32,7 +32,7 @@ jobs:
           pip install -r requirements-cli.txt
           python setup.py develop
           
-      - name: Run Test
+      - name: Run Tests
         run: |
           cd ~/benchmarks/
           pytest -vv benchmarks/tests/
